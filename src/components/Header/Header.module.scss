@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(40 / 1250 * 100vw);
+    border-bottom: 1px solid #EAEAEA;
+    .headerLeft {
+      display: flex;
+      align-items: center;
+      div {
+        .headerLeftHeading {
+            font-size: calc(22 / 1250 * 100vw);
+        }
+        .headerLeftText {
+            font-size: calc(20 / 1250 * 100vw);
+          opacity: 0.5;
+        }
+      }
+      img {
+        display: flex;
+        align-items: center;
+        width: calc(40 / 1250 * 100vw);
+        height: calc(40 / 1250 * 100vw);
+        margin-right: calc(15 / 1250 * 100vw);
+        div {
+          h3 {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .headerRight {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      li {
+        cursor: pointer;
+        span {
+            font-size: calc(20 / 1250 * 100vw);
+            margin-right: calc(15 / 1250 * 100vw);
+        }
+      }
+      img {
+        width: calc(18 / 1250 * 100vw);
+        height: calc(18 / 1250 * 100vw);
+        margin-right: calc(15 / 1250 * 100vw);
+      }
+    }
+    h3,
+    p {
+      margin: 0;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .header {
+        padding: calc(40 / 768 * 100vw);
+        .headerLeft {
+            div {
+              .headerLeftHeading {
+                  font-size: calc(20 / 768 * 100vw);
+              }
+              .headerLeftText {
+                  font-size: calc(18 / 768 * 100vw);
+                opacity: 0.5;
+              }
+            }
+            img {
+              width: calc(40 / 768 * 100vw);
+              height: calc(40 / 768 * 100vw);
+              margin-right: calc(15 / 768 * 100vw);
+            }
+          }
+          .headerRight {
+            .header-right__cart {
+              margin-right: calc(30 / 768 * 100vw);
+            }
+            li {
+              span {
+                  font-size: calc(18 / 768 * 100vw);
+                  margin-right: calc(10 / 768 * 100vw);
+              }
+            }
+            img {
+              width: calc(18 / 768 * 100vw);
+              height: calc(18 / 768 * 100vw);
+              margin-right: calc(15 / 768 * 100vw);
+            }
+          }
+    }
+}

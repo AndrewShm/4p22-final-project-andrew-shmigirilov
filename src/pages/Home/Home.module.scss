@@ -1,0 +1,136 @@
+.content {
+    padding: calc(40 / 1250 * 100vw);
+    .contentHeadingBlock {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: calc(20 / 1250 * 100vw);
+        font-size: calc(22 / 1250 * 100vw);
+        h1 {
+            margin: 0;
+        }
+    }
+    .searchBlock {
+        display: flex;
+        border: 1px solid #F3F3F3;
+        border-radius: calc(10 / 1250 * 100vw);
+        padding: 0 calc(15 / 1250 * 100vw);
+        position: relative;
+        .searchImg {
+            width: calc(25 / 1250 * 100vw);
+        }
+        .clear {
+            position: absolute;
+            right: calc(15 / 1250 * 100vw);
+            top: calc(14 / 1250 * 100vw);
+            width: calc(18 / 1250 * 100vw);
+            height: calc(18 / 1250 * 100vw);
+            cursor: pointer;
+        }
+        input {
+            border: 0;
+            padding: calc(13 / 1250 * 100vw);
+            font-size: calc(16 / 1250 * 100vw);
+            width: calc(200 / 1250 * 100vw);
+        }
+    }
+    .categories{
+        display: flex;
+        .searchPriceBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: calc(20 / 1250 * 100vw);
+            h2 {
+                display: flex;
+                font-size: calc(24 / 1250 * 100vw);
+                margin-block-end: 0;
+                margin-block-start: 0;
+                margin-inline-end: 0;
+                margin-inline-start: 0;
+                margin-right: calc(10 / 1250 * 100vw);
+            }
+            div {
+                width: calc(300 / 1250 * 100vw);
+                input {
+                    width: calc(100 / 1250 * 100vw);
+                    height: calc(40 / 1250 * 100vw);
+                    font-size: calc(16 / 1250 * 100vw);;
+                    margin-right: calc(10 / 1250 * 100vw);
+                    padding-left: calc(13 / 1250 * 100vw);
+                    border: 1px solid #F3F3F3;
+                    border-radius: calc(10 / 1250 * 100vw);
+                }
+            }
+        }
+        .searchSizeBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: calc(20 / 1250 * 100vw);
+            h2 {
+                display: flex;
+                font-size: calc(24 / 1250 * 100vw);
+                margin-block-end: 0;
+                margin-block-start: 0;
+                margin-inline-end: 0;
+                margin-inline-start: 0;
+                margin-right: calc(10 / 1250 * 100vw);
+            }
+            input {
+                position: relative;
+                width: calc(130 / 1250 * 100vw);
+                height: calc(40 / 1250 * 100vw);
+                font-size: calc(16 / 1250 * 100vw);;
+                margin-right: calc(10 / 1250 * 100vw);
+                padding-left: calc(13 / 1250 * 100vw);
+                border: 1px solid #F3F3F3;
+                border-radius: calc(10 / 1250 * 100vw);
+            }
+        }
+    }
+    .contentItems {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .content {
+        .contentHeadingBlock {
+            font-size: calc(20 / 768 * 100vw);
+            .searchBlock {
+                h2 {
+                    font-size: calc(24 / 768 * 100vw);
+                }
+                .clear {
+                    width: calc(21 / 768 * 100vw);
+                    height: calc(21 / 768 * 100vw);
+                }
+                input {
+                    font-size: calc(16 / 768 * 100vw);
+                    width: calc(200 / 768 * 100vw);
+                }
+            }
+        }
+        .categories {
+            .searchPriceBlock {
+                h2 {
+                    font-size: calc(18 / 768 * 100vw);
+                }
+                div {
+                    input {
+                        font-size: calc(18 / 768 * 100vw);
+                    }
+                }
+            }
+            .searchSizeBlock {
+                h2 {
+                    font-size: calc(18 / 768 * 100vw);
+                }
+                input {
+                    font-size: calc(18 / 768 * 100vw);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+.content {
+    padding: calc(40 / 1250 * 100vw);
+    .contentHeadingBlock {
+        font-size: calc(24 / 1250 * 100vw);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: calc(20 / 1250 * 100vw);
+        h1 {
+            margin: 0;
+        }
+    }
+    form {
+        position: relative;
+        right: 0;
+        top: 0;
+        label {
+            font-size: calc(16 / 1250 * 100vw);
+            span {
+                color: red;
+            }
+        }
+        input {
+            display: block;
+            border: 1px solid #F3F3F3;
+            border-radius: calc(10 / 1250 * 100vw);
+            position: relative;
+            font-size: calc(24 / 1250 * 100vw);
+            width: calc(500 / 1250 * 100vw);
+            height: calc(40 / 1250 * 100vw);
+            margin-bottom: calc(20 / 1250 * 100vw);
+            z-index: 5;
+            background-color: #8b8b8b00;
+        }
+        .radioCheckbox {
+            color: inherit;
+            h5 {
+                font-size: calc(16 / 1250 * 100vw);
+                margin-top: calc(5 / 1250 * 100vw);
+                margin-bottom: calc(5 / 1250 * 100vw);
+                font-weight: 500;
+            }
+            input {
+                display: inline;
+                width: calc(40 / 1250 * 100vw);
+            }
+            .customRadio {
+                position: absolute;
+                z-index: -1;
+                opacity: 0;
+            }
+            .customRadio+label {
+                display: inline-flex;
+                align-items: center;
+                user-select: none;
+                cursor: pointer;
+                margin-right: calc(20 / 1250 * 100vw);
+                margin-bottom: calc(20 / 1250 * 100vw);
+            }
+            .customRadio+label::before {
+                content: '';
+                display: inline-block;
+                width: calc(16 / 1250 * 100vw);
+                height: calc(16 / 1250 * 100vw);
+                flex-shrink: 0;
+                flex-grow: 0;
+                border: 1px solid #adb5bd;
+                border-radius: 50%;
+                margin-right: 0.5em;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: 50% 50%;
+            }
+            .customRadio:checked+label::before {
+                border-color: #9DD558;
+                background-color: #9DD558;
+            }
+            .customRadio:disabled+label::before {
+                background-color: #e9ecef;
+            }
+        }
+        .checkbox {
+            color: inherit;
+            margin-bottom: calc(20 / 1250 * 100vw);
+            .customCheckbox {
+                position: absolute;
+                z-index: 2;
+                opacity: 0;
+                cursor: pointer;
+            }
+            .customCheckbox+label {
+                display: inline-flex;
+                align-items: center;
+                user-select: none;
+            }
+            .customCheckbox+label::before {
+                content: '';
+                display: inline-block;
+                width: calc(16 / 1250 * 100vw);
+                height: calc(16 / 1250 * 100vw);
+                flex-shrink: 0;
+                flex-grow: 0;
+                border: 1px solid #adb5bd;
+                border-radius: 50%;
+                margin-right: calc(10 / 1250 * 100vw);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: 100% 100%;
+            }
+            .customCheckbox:checked+label::before {
+                border-color: #9DD558;
+                background-color: #9DD558;
+                cursor: pointer;
+            }
+            .customCheckbox:disabled+label::before {
+                background-color: #e9ecef;
+            }
+        }
+        .inputFile {
+            width: calc(500 / 1250 * 100vw);
+            position: relative;
+            margin: calc(15 / 1250 * 100vw) 0;
+            text-align: center;
+            .customInputFile {
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+            }
+            label {
+                font-size: calc(20 / 1250 * 100vw);
+                font-weight: 700;
+                background-color: #9DD558;
+                width: calc(400 / 1250 * 100vw) !important;
+                height: calc(40 / 1250 * 100vw);
+                border-radius: calc(20 / 1250 * 100vw);
+                padding: calc(10 / 1250 * 100vw);
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .greenButton {
+            display: block;
+            width: calc(500 / 1250 * 100vw);
+            height: calc(55 / 1250 * 100vw);
+            background: #9DD558;
+            border-radius: calc(18 / 1250 * 100vw);
+            border: 0;
+            color: #FFFFFF;
+            font-size: calc(16 / 1250 * 100vw);
+            font-weight: 500;
+            margin-bottom: calc(20 / 1250 * 100vw);
+            transition: background 0.2s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                background: lighten(#9DD558, 10%);
+            }
+            &:active {
+                background: darken(#9DD558, 5%);
+            }
+            &:disabled {
+                background-color: #8b8b8b;
+            }
+        }
+        img {
+            position:absolute;
+            width: calc(600 / 1250 * 100vw);
+            bottom: calc(-60 / 1250 * 100vw);
+            left: calc(440 / 1250 * 100vw);
+            border-radius: calc(20 / 1250 * 100vw);
+            opacity: 0.5;
+            z-index: 0;
+        }
+        div {
+            color: red;
+            font-size: calc(14 / 1250 * 100vw);
+        }
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .content {
+        .contentHeadingBlock {
+            font-size: calc(20 / 768 * 100vw);
+        }
+        form {
+            label {
+                font-size: calc(22 / 768 * 100vw);
+            }
+            input {
+                font-size: calc(22 / 768 * 100vw);
+                width: calc(500 / 768 * 100vw);
+                height: calc(40 / 768 * 100vw);
+            }
+            .radioCheckbox {
+                h5 {
+                    font-size: calc(22 / 768 * 100vw);
+                    margin-top: calc(5 / 768 * 100vw);
+                    margin-bottom: calc(5 / 768 * 100vw);
+                    font-weight: 500;
+                }
+                input {
+                    width: calc(40 / 768 * 100vw);
+                }
+                .customRadio+label {
+                    margin-right: calc(20 / 768 * 100vw);
+                    margin-bottom: calc(20 / 768 * 100vw);
+                }
+                .customRadio+label::before {
+                    width: calc(16 / 768 * 100vw);
+                    height: calc(16 / 768 * 100vw);
+                }
+            }
+            .checkbox {
+                margin-bottom: calc(20 / 768 * 100vw);
+                .customCheckbox+label::before {
+                    width: calc(16 / 768 * 100vw);
+                    height: calc(16 / 768 * 100vw);
+                    margin-right: calc(10 / 768 * 100vw);
+                }
+            }
+            .inputFile {
+                width: calc(500 / 768 * 100vw);
+                margin: calc(15 / 768 * 100vw) 0;
+                z-index: 5;
+                label {
+                    font-size: calc(20 / 768 * 100vw);
+                    width: calc(400 / 768 * 100vw) !important;
+                    height: calc(40 / 768 * 100vw);
+                    border-radius: calc(20 / 768 * 100vw);
+                    padding: calc(10 / 768 * 100vw);
+                }
+            }
+            .greenButton {
+                display: block;
+                width: calc(500 / 768 * 100vw);
+                height: calc(55 / 768 * 100vw);
+                border-radius: calc(18 / 768 * 100vw);
+                color: #FFFFFF;
+                font-size: calc(20 / 768 * 100vw);
+                margin-bottom: calc(20 / 768 * 100vw);
+                z-index: 10;
+                opacity: 1;
+            }
+            img {
+                bottom: calc(170 / 768 * 100vw);
+                left: calc(340 / 768 * 100vw);
+                width: calc(300 / 768 * 100vw);
+                border-radius: calc(0 / 768 * 100vw);
+            }
+            div {
+                font-size: calc(20 / 768 * 100vw);
+            }
+        }
+    }
+}

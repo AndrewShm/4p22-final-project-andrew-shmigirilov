@@ -1,0 +1,21 @@
+.content {
+    padding: calc(40 / 1250 * 100vw);
+    .contentHeadingBlock {
+        font-size: calc(24 / 1250 * 100vw);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: calc(20 / 1250 * 100vw);
+    }
+    .contentItems {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .content {
+        .contentHeadingBlock {
+            font-size: calc(24 / 768 * 100vw);
+        }
+    }
+}

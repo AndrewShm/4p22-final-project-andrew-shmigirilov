@@ -1,0 +1,80 @@
+.cartEmpty {
+    max-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    margin-top: calc(10 / 1250 * 100vw);
+    > img {
+        width: calc(250 / 1250 * 100vw);
+        max-height: 40vh;
+    }
+    h2 {
+        font-size: calc(26 / 1250 * 100vw);
+        margin: 0;
+    }
+    p {
+        width: calc(280 / 1250 * 100vw);
+        font-size: calc(24 / 1250 * 100vw);
+        line-height: calc(24 / 1250 * 100vw);
+        opacity: 0.6;
+    }
+    .greenButton {
+        height: calc(55 / 1250 * 100vw);
+        background: #9DD558;
+        border-radius: calc(18 / 1250 * 100vw);
+        border: 0;
+        color: #FFFFFF;
+        font-weight: 500;
+        width: calc(350 / 1250 * 100vw);
+        font-size: calc(24 / 1250 * 100vw);
+        margin-top: calc(20 / 1250 * 100vw);
+        cursor: pointer;
+        transition: background 0.2s ease-in-out;
+        &:hover {
+            background: lighten(#9DD558, 10%);
+            img {
+                transform: rotate(180deg) translateX(3px);
+            }
+        }
+        &:active {
+            background: darken(#9DD558, 5%);
+        }
+        img {
+            position: relative;
+            top: 1px;
+            transform: rotate(180deg);
+            margin-right: calc(15 / 1250 * 100vw);
+            width: calc(20 / 1250 * 100vw);
+            transition: transform 0.15s ease-in-out;
+        }
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .cartEmpty {
+        margin-top: calc(10 / 768 * 100vw);
+        > img {
+            width: calc(250 / 768 * 100vw);
+        }
+        h2 {
+            font-size: calc(26 / 768 * 100vw);
+        }
+        p {
+            width: calc(280 / 768 * 100vw);
+            font-size: calc(24 / 768 * 100vw);
+            line-height: calc(24 / 768 * 100vw);
+        }
+        .greenButton {
+            height: calc(55 / 768 * 100vw);
+            border-radius: calc(18 / 768 * 100vw);
+            width: calc(350 / 768 * 100vw);
+            font-size: calc(24 / 768 * 100vw);
+            margin-top: calc(20 / 768 * 100vw);
+            img {
+                width: calc(20 / 768 * 100vw);
+            }
+        }
+    }
+}
