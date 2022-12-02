@@ -1,14 +1,34 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-andrew-shmigirilov/static/css/main.0b77a166.css",
-    "main.js": "/4p22-final-project-andrew-shmigirilov/static/js/main.73bfc203.js",
+    "main.css": "/4p22-final-project-andrew-shmigirilov/static/css/main.2ab8603b.css",
+    "main.js": "/4p22-final-project-andrew-shmigirilov/static/js/main.b98213e7.js",
+    "static/media/form-img.png": "/4p22-final-project-andrew-shmigirilov/static/media/form-img.124257b4089c0cd752fa.png",
+    "static/media/2.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/2.6cd1ce77c49c35a4d999.jpg",
+    "static/media/7.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/7.5b9ffab827578882db81.jpg",
+    "static/media/4.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/4.7982fa2149ee723c46fd.jpg",
+    "static/media/logo.png": "/4p22-final-project-andrew-shmigirilov/static/media/logo.928c8ec61bc2ae2d9b1d.png",
+    "static/media/6.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/6.427ccd3e2428001f74fd.jpg",
+    "static/media/5.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/5.b21828be86e596e2486b.jpg",
+    "static/media/1.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/1.ab6280be9b13125606d2.jpg",
+    "static/media/complete-order.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/complete-order.b997b2a143b197da5f98.jpg",
+    "static/media/3.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/3.4d7328e6ed157b0b970c.jpg",
+    "static/media/empty-cart.jpg": "/4p22-final-project-andrew-shmigirilov/static/media/empty-cart.0366979184a44172f310.jpg",
+    "static/media/unliked.svg": "/4p22-final-project-andrew-shmigirilov/static/media/unliked.dbddb85a65c80405e2d8ac198b59ea70.svg",
+    "static/media/btn-checked.svg": "/4p22-final-project-andrew-shmigirilov/static/media/btn-checked.4bd49de75a0e5a3ef4c2aa960665057e.svg",
+    "static/media/heart.svg": "/4p22-final-project-andrew-shmigirilov/static/media/heart.fb6fc173851dd67a64d51b7306e810d1.svg",
+    "static/media/liked.svg": "/4p22-final-project-andrew-shmigirilov/static/media/liked.5d926b75507b45bd8c1c9c16499e4352.svg",
+    "static/media/user.svg": "/4p22-final-project-andrew-shmigirilov/static/media/user.381202f7e3edbc1a00b14fbd5e529a32.svg",
+    "static/media/cart.svg": "/4p22-final-project-andrew-shmigirilov/static/media/cart.13b30700bcb8292bc12b12b5bae15a2a.svg",
     "index.html": "/4p22-final-project-andrew-shmigirilov/index.html",
+    "static/media/search.svg": "/4p22-final-project-andrew-shmigirilov/static/media/search.48c52bf5d459537e27c07f88eb08c050.svg",
     "static/media/btn-remove.svg": "/4p22-final-project-andrew-shmigirilov/static/media/btn-remove.b1fef0aa93fbf25374f4991d23f900d8.svg",
-    "main.0b77a166.css.map": "/4p22-final-project-andrew-shmigirilov/static/css/main.0b77a166.css.map",
-    "main.73bfc203.js.map": "/4p22-final-project-andrew-shmigirilov/static/js/main.73bfc203.js.map"
+    "static/media/btn-plus.svg": "/4p22-final-project-andrew-shmigirilov/static/media/btn-plus.b88e94c67ea7ac0cfa69033241c96b8c.svg",
+    "static/media/arrow.svg": "/4p22-final-project-andrew-shmigirilov/static/media/arrow.fc3222511ec5a224a4abf3bbf4c2566f.svg",
+    "main.2ab8603b.css.map": "/4p22-final-project-andrew-shmigirilov/static/css/main.2ab8603b.css.map",
+    "main.b98213e7.js.map": "/4p22-final-project-andrew-shmigirilov/static/js/main.b98213e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b77a166.css",
-    "static/js/main.73bfc203.js"
+    "static/css/main.2ab8603b.css",
+    "static/js/main.b98213e7.js"
   ]
 }
