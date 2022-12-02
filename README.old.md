@@ -1,1 +1,0 @@
-# 4p22-final-project-andrew-shmigirilov

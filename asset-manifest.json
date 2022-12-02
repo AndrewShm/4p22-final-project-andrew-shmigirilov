@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/4p22-final-project-andrew-shmigirilov/static/css/main.0b77a166.css",
+    "main.js": "/4p22-final-project-andrew-shmigirilov/static/js/main.73bfc203.js",
+    "index.html": "/4p22-final-project-andrew-shmigirilov/index.html",
+    "static/media/btn-remove.svg": "/4p22-final-project-andrew-shmigirilov/static/media/btn-remove.b1fef0aa93fbf25374f4991d23f900d8.svg",
+    "main.0b77a166.css.map": "/4p22-final-project-andrew-shmigirilov/static/css/main.0b77a166.css.map",
+    "main.73bfc203.js.map": "/4p22-final-project-andrew-shmigirilov/static/js/main.73bfc203.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b77a166.css",
+    "static/js/main.73bfc203.js"
+  ]
+}
